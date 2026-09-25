@@ -138,7 +138,7 @@ export function Hero() {
       <div className="frame relative flex items-end justify-between pb-8">
         <div className="flex items-center gap-4">
           {heroSlides.map((s, k) => (
-            <button key={s.piece} type="button" onClick={() => setI(k)} aria-label={`Show ${s.piece}`} className="group flex items-center gap-3">
+            <button key={s.piece} type="button" onClick={() => setI(k)} aria-label={`Show ${s.piece}`} className="group flex items-center gap-3 py-2.5">
               <span className={`text-[12px] tracking-[0.18em] transition-colors ${k === i ? 'text-ivory' : 'text-ivory/40 group-hover:text-ivory/70'}`}>
                 0{k + 1}
               </span>
