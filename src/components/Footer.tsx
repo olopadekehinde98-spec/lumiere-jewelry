@@ -144,7 +144,7 @@ export function Footer() {
           <ul className="flex flex-wrap items-center gap-x-5 gap-y-2">
             {legal.map((l) => (
               <li key={l}>
-                <a href="#footer" className="inline-block py-1 transition-colors hover:text-gold">
+                <a href="#footer" className="inline-block py-2 transition-colors hover:text-gold">
                   {l}
                 </a>
               </li>
